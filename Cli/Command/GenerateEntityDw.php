@@ -1,6 +1,6 @@
 <?php
 
-namespace XF\Cli\Command\Development;
+namespace XDT\Cli\Command\Development;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\ArrayInput;
@@ -12,8 +12,6 @@ use XF\Legacy\DataWriter;
 
 class GenerateEntityDw extends Command
 {
-	use RequiresDevModeTrait;
-
 	protected function configure()
 	{
 		$this
